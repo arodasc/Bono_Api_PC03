@@ -54,7 +54,7 @@ public class MedicamentoController {
 	
 	
 	
-	@GetMapping("/{id}")
+	@GetMapping("/porId/{id}")
 	@ResponseBody
 	public ResponseEntity<Medicamento> listaPorId(@PathVariable("id") int idMedicamento){
 		Optional<Medicamento> optMedicamento =  service.obtienePorId(idMedicamento);
