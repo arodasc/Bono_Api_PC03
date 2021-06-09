@@ -42,17 +42,7 @@ public class MedicamentoServiceImpl implements MedicamentoService {
 		return repository.findById(idAlumno);
 	}
 
-	/*
-	@Override
-	public List<Medicamento> listaPorDni(String dni) {
-		return repository.findByDni(dni);
-	}
 
-	@Override
-	public List<Medicamento> listaPorDni(String dni, int idAlumno) {
-		return repository.findByDniAndIdAlumnoNot(dni, idAlumno);
-	}
-*/
 	
 
 }

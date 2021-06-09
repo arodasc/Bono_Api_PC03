@@ -17,8 +17,6 @@ public interface MedicamentoService {
 	
 	public abstract List<Medicamento> listaMedicamentoPorNombreLike(String filtro);
 	
-	/*public abstract List<Medicamento> listaPorDni(String dni);
-	 * 
-	public abstract List<Medicamento> listaPorDni(String dni, int idAlumno);*/
+
 	
 }

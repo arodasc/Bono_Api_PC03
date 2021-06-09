@@ -71,11 +71,7 @@ public class Medicamento {
 	
 	private String laboratorio;
 	
-	/*@JsonFormat(pattern = "yyyy-MM-dd")
-	@Temporal(TemporalType.DATE)
-	@DateTimeFormat(pattern = "yyyy-MM-dd")
-	private Date fechaNacimiento;*/
-
+	
 	
 	
 }

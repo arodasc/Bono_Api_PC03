@@ -13,9 +13,6 @@ public interface MedicamentoRepository extends JpaRepository<Medicamento, Intege
 	
 	@Query("Select a from Medicamento a where nombre like :fil")
 	public abstract List<Medicamento> listaMedicamentoPorNombreLike(@Param("fil") String filtro);
-/*
-	public abstract List<Medicamento> findByDni(String dni);
+
 	
-	public abstract List<Medicamento> findByDniAndIdAlumnoNot(String dni, int idAlumno);
-	*/
 }
